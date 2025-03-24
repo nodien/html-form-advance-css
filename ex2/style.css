@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffcc;
+    padding: 20px;
+    margin: 0;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-header {
+    background-color: #ccffcc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.form-header h1 {
+    margin: 0;
+    color: #0000cc;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.form-label {
+    width: 100px;
+    color: #0000cc;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.form-input {
+    flex: 1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+    padding-top: 5px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+}
+
+.radio-option input {
+    margin-right: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.form-button {
+    padding: 10px 30px;
+    background-color: #cccccc;
+    border: 1px solid #999;
+    cursor: pointer;
+    font-size: 16px;
+}
